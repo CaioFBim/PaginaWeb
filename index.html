@@ -5,36 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rogerio Ceni: Maior goleiro do mundo, sim ou não?</title>
+    
     <style>
+        /* CSS ATUALIZADO PARA ENCAIXAR TUDO PERFEITAMENTE */
+        
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #e9ecef; /* Um cinza um pouco mais escuro para destacar o site */
             margin: 0;
-            padding: 0;
+            padding: 20px; /* Dá um respiro nas bordas da tela do celular/pc */
+        }
+
+        /* Criamos um container para abraçar o título e o texto de uma vez só */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15); /* Sombra em volta da caixa inteira */
+            border-radius: 12px; /* Arredonda as pontas do site todo */
+            overflow: hidden; /* Corta o que passar das bordas arredondadas */
         }
 
         header {
             background-color: #ee1a4f;
             color: #FFFFFF;
             text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 16px;
-            border-bottom: 4px solid #000;
+            padding: 25px 20px; /* Espaço interno do título */
+            border-bottom: 4px solid #111; /* Faixa preta separando o título do texto */
+        }
+
+        header h1 {
+            margin: 0; /* Tira aquela margem invisível padrão que desalinha o H1 */
+            font-size: 26px;
         }
 
         main {
-            background-color: #FFFFFF;
-            color: #ee1a4f;
-            max-width: 800px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column; /* Alterado para empilhar o conteúdo */
-            gap: 20px;
             padding: 30px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
         }
 
+        /* O resto continua igualzinho! */
         .intro-section {
             display: flex;
             align-items: center;
@@ -80,7 +92,8 @@
 
         .artigo-autor {
             font-weight: bold;
-            color: #333;
+            color: #555;
+            margin-top: -10px; /* Puxa o nome do autor um pouquinho pra cima */
         }
 
         .texto-conteudo p {
@@ -89,8 +102,9 @@
             text-align: justify;
         }
 
-        .texto-conteudo h2 {
+        .texto-conteudo h2, .intro-text h2 {
             color: #ee1a4f;
+            margin-top: 0;
             border-bottom: 2px solid #ee1a4f;
             padding-bottom: 5px;
         }
@@ -112,82 +126,77 @@
 </head>
 
 <body>
-    <header>
-        <h1>Rogerio Ceni: Maior goleiro do mundo, sim ou não?</h1>
-    </header>
     
-    <main>
-        <!-- SEÇÃO 1: Introdução e Imagem -->
-        <div class="intro-section">
-            <div class="intro-text">
-                <h2>Quem é Rogerio Ceni?</h2>
-                <p class="artigo-autor">Por: Caio Bim</p>
-                <p>Rogerio Ceni, treinador de futebol, possui incríveis 30 títulos como jogador e treinador, sendo os mais
-                    importantes Copa do Mundo, Mundial de Clubes, Libertadores e Brasileirão. Ele é considerado pela maioria
-                    da torcida do São Paulo FC o maior jogador da história do clube, acima de ídolos gigantes como
-                    Raí, Zetti, Careca entre outros.</p>
-            </div>
-            
-            <div class="img-container">
-                <img src="Rogerio Ceni.jpg" alt="Gol numero 100 Rogerio Ceni">
-                <div class="botoes-interacao">
-                    <button>❤️ <span>0</span></button>
-                    <button>🟥⬛⬜ <span>0</span></button>
+    <!-- ENVOLVEMOS TUDO NA DIV 'CONTAINER' -->
+    <div class="container">
+        
+        <header>
+            <h1>Rogerio Ceni: Maior goleiro do mundo, sim ou não?</h1>
+        </header>
+        
+        <main>
+            <!-- SEÇÃO 1: Introdução e Imagem -->
+            <div class="intro-section">
+                <div class="intro-text">
+                    <h2>Quem é Rogerio Ceni?</h2>
+                    <p class="artigo-autor">Por: Caio Bim</p>
+                    <p>Rogerio Ceni, treinador de futebol, possui incríveis 30 títulos como jogador e treinador, sendo os mais
+                        importantes Copa do Mundo, Mundial de Clubes, Libertadores e Brasileirão. Ele é considerado pela maioria
+                        da torcida do São Paulo FC o maior jogador da história do clube, acima de ídolos gigantes como
+                        Raí, Zetti, Careca entre outros.</p>
+                </div>
+                
+                <div class="img-container">
+                    <img src="Rogerio Ceni.jpg" alt="Gol numero 100 Rogerio Ceni">
+                    <div class="botoes-interacao">
+                        <button>❤️ <span>0</span></button>
+                        <button>🟥⬛⬜ <span>0</span></button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- SEÇÃO 2: A Importância para o Futebol -->
-        <div class="texto-conteudo">
-            <h2>A Revolução na Posição de Goleiro</h2>
-            <p>A importância de Rogério Ceni para o futebol mundial vai muito além das fronteiras do Brasil ou das conquistas de seu clube. Ele literalmente redefiniu o que significa ser goleiro. Antes dele, o camisa 1 era visto quase exclusivamente como o jogador responsável por evitar gols, ficando restrito à sua pequena área. Ceni transformou o goleiro em um construtor de jogadas, um líder absoluto em campo e, de forma inédita, uma arma ofensiva letal. Sua precisão absurda com os pés, seja para dar lançamentos perfeitos ou para cobrar faltas e pênaltis, forçou o esporte a repensar a posição. Ele pavimentou o caminho para o "goleiro moderno" que vemos hoje na Europa, provando que o goleiro pode e deve participar ativamente do jogo com os pés.</p>
-        </div>
-
-        <!-- SEÇÃO 3: A Conclusão Lógica -->
-        <div class="texto-conteudo">
-            <h2>O Maior e Melhor do Mundo: A Conclusão</h2>
-            <p>Ao analisar friamente os fatos e a história do esporte, a resposta é um sonoro <strong>SIM</strong>: Rogério Ceni é o maior e melhor goleiro da história do futebol. E os argumentos são incontestáveis. Primeiro, os números absolutos: ele detém o recorde mundial do Guinness de goleiro com mais gols na história (impressionantes 131 gols). Nenhum outro goleiro chegou perto desse impacto ofensivo. </p>
-            <p>Segundo, a longevidade e a lealdade: foram mais de 1.200 jogos pelo mesmo clube (outro recorde mundial), mantendo um nível de excelência por mais de duas décadas. Terceiro, sua capacidade debaixo das traves. Muitos críticos tentam reduzi-lo apenas a um "goleiro que batia faltas", mas esquecem que ele operava milagres. A sua atuação histórica na final do Mundial de Clubes de 2005 contra o Liverpool — com destaque para a defesa antológica na falta cobrada por Steven Gerrard — provou que, mesmo se nunca tivesse feito um gol na vida, ele ainda seria um dos melhores da posição. A combinação de ser um defensor de elite sob as traves, um artilheiro decisivo e um multicampeão faz dele um atleta único, o goleiro mais completo e o maior de todos os tempos.</p>
-        </div>
-
-        <!-- SEÇÃO 4: Vídeos (Provas) -->
-        <div class="texto-conteudo">
-            <h2>Provas do Goleiraço que Ele É</h2>
-            <p>Ainda duvida? Assista aos lances abaixo e veja com os próprios olhos a genialidade do M1TO em campo, tanto defendendo quanto atacando:</p>
-            
-            <div class="videos-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/66-m53AXyjs?si=RBhJc7uXl8Q2p98w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8FwR_E64FpE?si=4EzNursyav0IhBVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/WU1Vum9cDbE?si=npiytiKu-kwtyXEm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- SEÇÃO 2: A Importância para o Futebol -->
+            <div class="texto-conteudo">
+                <h2>A Revolução na Posição de Goleiro</h2>
+                <p>A importância de Rogério Ceni para o futebol mundial vai muito além das fronteiras do Brasil ou das conquistas de seu clube. Ele literalmente redefiniu o que significa ser goleiro. Antes dele, o camisa 1 era visto quase exclusivamente como o jogador responsável por evitar gols, ficando restrito à sua pequena área. Ceni transformou o goleiro em um construtor de jogadas, um líder absoluto em campo e, de forma inédita, uma arma ofensiva letal. Sua precisão absurda com os pés, seja para dar lançamentos perfeitos ou para cobrar faltas e pênaltis, forçou o esporte a repensar a posição. Ele pavimentou o caminho para o "goleiro moderno" que vemos hoje na Europa, provando que o goleiro pode e deve participar ativamente do jogo com os pés.</p>
             </div>
-        </div>
 
-    </main>
+            <!-- SEÇÃO 3: A Conclusão Lógica -->
+            <div class="texto-conteudo">
+                <h2>O Maior e Melhor do Mundo: A Conclusão</h2>
+                <p>Ao analisar friamente os fatos e a história do esporte, a resposta é um sonoro <strong>SIM</strong>: Rogério Ceni é o maior e melhor goleiro da história do futebol. E os argumentos são incontestáveis. Primeiro, os números absolutos: ele detém o recorde mundial do Guinness de goleiro com mais gols na história (impressionantes 131 gols). Nenhum outro goleiro chegou perto desse impacto ofensivo. </p>
+                <p>Segundo, a longevidade e a lealdade: foram mais de 1.200 jogos pelo mesmo clube (outro recorde mundial), mantendo um nível de excelência por mais de duas décadas. Terceiro, sua capacidade debaixo das traves. Muitos críticos tentam reduzi-lo apenas a um "goleiro que batia faltas", mas esquecem que ele operava milagres. A sua atuação histórica na final do Mundial de Clubes de 2005 contra o Liverpool — com destaque para a defesa antológica na falta cobrada por Steven Gerrard — provou que, mesmo se nunca tivesse feito um gol na vida, ele ainda seria um dos melhores da posição. A combinação de ser um defensor de elite sob as traves, um artilheiro decisivo e um multicampeão faz dele um atleta único, o goleiro mais completo e o maior de todos os tempos.</p>
+            </div>
+
+            <!-- SEÇÃO 4: Vídeos (Provas) -->
+            <div class="texto-conteudo">
+                <h2>Provas do Goleiraço que Ele É</h2>
+                <p>Ainda duvida? Assista aos lances abaixo e veja com os próprios olhos a genialidade do M1TO em campo, tanto defendendo quanto atacando:</p>
+                
+                <div class="videos-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/66-m53AXyjs?si=RBhJc7uXl8Q2p98w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8FwR_E64FpE?si=4EzNursyav0IhBVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WU1Vum9cDbE?si=npiytiKu-kwtyXEm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </main>
+    </div> <!-- FIM DO CONTAINER -->
 
     <script>
-        // Seleciona todos os botões da página
         const botoes = document.querySelectorAll("button");
-
-        // Aplica a lógica para cada botão individualmente
         botoes.forEach(function (botao) {
-            
-            // Variável que guarda se ESTE botão específico foi curtido ou não
             let curtiu = false;
-
             botao.addEventListener("click", function botaoClicado() {
                 let texto = botao.querySelector("span");
-                
-                // Lógica de adicionar ou remover o curtir
                 if (curtiu === false) {
                     texto.textContent++;
                     curtiu = true;
-                    botao.style.backgroundColor = "#ffcccc"; // Dá um feedback visual de que curtiu
+                    botao.style.backgroundColor = "#ffcccc"; 
                 } else {
                     texto.textContent--;
                     curtiu = false;
-                    botao.style.backgroundColor = "#f8f9fa"; // Retira o feedback visual
+                    botao.style.backgroundColor = "#f8f9fa"; 
                 }
             });
         });
