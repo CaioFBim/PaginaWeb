@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
 <head>
@@ -61,22 +60,32 @@
         <button>❤️<span>0</span></button>
         <button>🟥⬛⬜<span>0</span></button>
     </main>
+
+    <script>
+        // Seleciona todos os botões da página
+        const botoes = document.querySelectorAll("button");
+
+        // Aplica a lógica para cada botão individualmente
+        botoes.forEach(function (botao) {
+            
+            // Variável que guarda se ESTE botão específico foi curtido ou não
+            let curtiu = false;
+
+            botao.addEventListener("click", function botaoClicado() {
+                console.log("fui clicado");
+                let texto = botao.querySelector("span");
+                
+                // Lógica de adicionar ou remover o curtir
+                if (curtiu === false) {
+                    texto.textContent++;
+                    curtiu = true;
+                } else {
+                    texto.textContent--;
+                    curtiu = false;
+                }
+            });
+        });
+    </script>
 </body>
-<script>
-    // 1. Seleciona todos os botões da página
-    const botoes = document.querySelectorAll("button");
-
-    // 2. Agora o forEach vai funcionar, pois 'botoes' existe
-    botoes.forEach(function (botao) {
-        botao.addEventListener("click", botaoClicado);
-
-        function botaoClicado() {
-            console.log("fui clicado");
-            let texto = botao.querySelector("span");
-            texto.textContent++;
-        }
-    });
-</script>
-
 
 </html>
