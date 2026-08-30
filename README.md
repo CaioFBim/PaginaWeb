@@ -53,12 +53,12 @@ Para que o site funcione perfeitamente na sua máquina, os seguintes arquivos de
 
 ## Referências
 
-GUINNESS WORLD RECORDS. **Most goals scored by a goalkeeper**. Londres, [Ano de publicação do recorde]. Disponível em: <URL da página do Guinness>. Acesso em: 30 ago. 2026.
+GUINNESS WORLD RECORDS. **Most goals scored by a goalkeeper**. Londres, 2015. Disponível em: <https://www.guinnessworldrecords.com/world-records/most-goals-scored-by-a-goalkeeper>. Acesso em: 30 ago. 2026.
 
-SÃO PAULO FUTEBOL CLUBE. **História: Rogério Ceni**. São Paulo, [Ano de publicação no site oficial, se aplicável]. Disponível em: <URL da página do SPFC>. Acesso em: 30 ago. 2026.
+SÃO PAULO FUTEBOL CLUBE. **História: Rogério Ceni**. São Paulo. Disponível em: <http://www.saopaulofc.net>. Acesso em: 30 ago. 2026.
 
-NOME DO CANAL DO PRIMEIRO VÍDEO. **Título exato do primeiro vídeo do YouTube**. YouTube, [Ano de publicação do vídeo]. Disponível em: <https://youtu.be/66-m53AXyjs>. Acesso em: 30 ago. 2026.
+FUTEBOL NACIONAL. **Título exato do primeiro vídeo do YouTube**. YouTube. Disponível em: <https://youtu.be/66-m53AXyjs>. Acesso em: 30 ago. 2026.
 
-NOME DO CANAL DO SEGUNDO VÍDEO. **Título exato do segundo vídeo do YouTube**. YouTube, [Ano de publicação do vídeo]. Disponível em: <https://youtu.be/8FwR_E64FpE>. Acesso em: 30 ago. 2026.
+3 CORES 1 SÓ TORCIDA. **Título exato do segundo vídeo do YouTube**. YouTube. Disponível em: <https://youtu.be/8FwR_E64FpE>. Acesso em: 30 ago. 2026.
 
-NOME DO CANAL DO TERCEIRO VÍDEO. **Título exato do terceiro vídeo do YouTube**. YouTube, [Ano de publicação do vídeo]. Disponível em: <https://youtu.be/WU1Vum9cDbE>. Acesso em: 30 ago. 2026.
+EDUKLOTZ. **Título exato do terceiro vídeo do YouTube**. YouTube. Disponível em: <https://youtu.be/WU1Vum9cDbE>. Acesso em: 30 ago. 2026.
