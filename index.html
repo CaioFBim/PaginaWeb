@@ -1,53 +1,67 @@
 <!DOCTYPE html>
+<!-- O 'lang="pt-br"' avisa aos navegadores que o site está em português do Brasil -->
 <html lang="pt-br">
 
 <head>
+    <!-- Configurações para aceitar acentuação (UTF-8) e adaptar para tela de celular (viewport) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rogerio Ceni: Maior goleiro do mundo, sim ou não?</title>
     
     <style>
-        /* CSS ATUALIZADO PARA ENCAIXAR TUDO PERFEITAMENTE */
+        /* =========================================
+           CSS: ONDE ESTILIZAMOS O VISUAL DA PÁGINA
+           ========================================= */
         
         body {
+            /* Define a fonte padrão de todo o site */
             font-family: Arial, sans-serif;
-            background-color: #e9ecef; /* Um cinza um pouco mais escuro para destacar o site */
             margin: 0;
-            padding: 20px; /* Dá um respiro nas bordas da tela do celular/pc */
+            padding: 20px; /* Dá um respiro nas bordas da tela */
+            
+            /* CONFIGURAÇÕES DO NOVO FUNDO DE TELA */
+            background-image: url('image_d9a5ea.jpg'); /* Puxa a imagem da torcida */
+            background-size: cover; /* Estica a imagem para cobrir a tela inteira sem perder a proporção */
+            background-repeat: no-repeat; /* Impede que a imagem se repita como um azulejo */
+            background-position: center center; /* Centraliza a imagem no meio da tela */
+            background-attachment: fixed; /* Trava o fundo no lugar enquanto a página rola para baixo */
         }
 
-        /* Criamos um container para abraçar o título e o texto de uma vez só */
         .container {
+            /* Esta é a caixa branca principal que segura os textos e vídeos */
             max-width: 800px;
-            margin: 0 auto;
-            background-color: #FFFFFF;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.15); /* Sombra em volta da caixa inteira */
+            margin: 0 auto; /* Centraliza a caixa na tela */
+            background-color: #FFFFFF; /* Fundo branco para não misturar o texto com a foto da torcida */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4); /* Sombra um pouco mais forte para destacar a caixa do fundo */
             border-radius: 12px; /* Arredonda as pontas do site todo */
-            overflow: hidden; /* Corta o que passar das bordas arredondadas */
+            overflow: hidden; /* Corta qualquer coisa que vaze das bordas arredondadas */
         }
 
         header {
+            /* O cabeçalho vermelho do topo */
             background-color: #ee1a4f;
             color: #FFFFFF;
             text-align: center;
-            padding: 25px 20px; /* Espaço interno do título */
+            padding: 25px 20px;
             border-bottom: 4px solid #111; /* Faixa preta separando o título do texto */
         }
 
         header h1 {
-            margin: 0; /* Tira aquela margem invisível padrão que desalinha o H1 */
+            /* Remove margens invisíveis do título e define o tamanho da letra */
+            margin: 0; 
             font-size: 26px;
         }
 
         main {
+            /* Área interna da caixa branca */
             padding: 30px;
             display: flex;
-            flex-direction: column;
-            gap: 25px;
+            flex-direction: column; /* Coloca os elementos um embaixo do outro */
+            gap: 25px; /* Espaço entre os blocos de texto/vídeo */
         }
 
-        /* O resto continua igualzinho! */
         .intro-section {
+            /* Organiza a primeira parte: texto de um lado, imagem do outro */
             display: flex;
             align-items: center;
             gap: 20px;
@@ -55,14 +69,17 @@
         }
 
         .intro-text {
+            /* Faz o texto ocupar o espaço que sobrar ao lado da imagem */
             flex: 1;
         }
 
         .img-container {
+            /* Mantém a imagem do Ceni e os botões centralizados no canto */
             text-align: center;
         }
 
         img {
+            /* Estiliza a foto do M1TO */
             width: 150px;
             height: auto;
             border-radius: 8px;
@@ -70,6 +87,7 @@
         }
 
         .botoes-interacao {
+            /* Organiza os botões de like um do lado do outro */
             margin-top: 10px;
             display: flex;
             justify-content: center;
@@ -77,32 +95,37 @@
         }
 
         button {
+            /* Deixa os botões com cara de botão clicável moderno */
             background-color: #f8f9fa;
             border: 1px solid #ccc;
             border-radius: 20px;
             padding: 8px 16px;
-            cursor: pointer;
+            cursor: pointer; /* Muda a setinha do mouse para a mãozinha de clique */
             font-size: 16px;
-            transition: 0.2s;
+            transition: 0.2s; /* Animação suave de cor */
         }
 
         button:hover {
+            /* Cor que o botão fica quando o mouse passa por cima */
             background-color: #e2e6ea;
         }
 
         .artigo-autor {
+            /* Destaca o nome do autor */
             font-weight: bold;
             color: #555;
-            margin-top: -10px; /* Puxa o nome do autor um pouquinho pra cima */
+            margin-top: -10px; 
         }
 
         .texto-conteudo p {
+            /* Melhora a leitura dos parágrafos, espaço entre linhas e texto justificado */
             line-height: 1.6;
             color: #333;
             text-align: justify;
         }
 
         .texto-conteudo h2, .intro-text h2 {
+            /* Estiliza os subtítulos com a cor principal e uma linha embaixo */
             color: #ee1a4f;
             margin-top: 0;
             border-bottom: 2px solid #ee1a4f;
@@ -110,6 +133,7 @@
         }
 
         .videos-container {
+            /* Centraliza a lista de vídeos e separa eles uniformemente */
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -118,6 +142,7 @@
         }
 
         iframe {
+            /* Garante que os vídeos do YouTube não fiquem gigantes nas telas */
             max-width: 100%;
             border-radius: 8px;
             box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
@@ -127,7 +152,11 @@
 
 <body>
     
-    <!-- ENVOLVEMOS TUDO NA DIV 'CONTAINER' -->
+    <!-- =========================================
+         HTML: O CONTEÚDO REAL DA PÁGINA
+         ========================================= -->
+
+    <!-- CONTAINER: Caixa branca principal para proteger o texto do fundo da torcida -->
     <div class="container">
         
         <header>
@@ -149,6 +178,7 @@
                 <div class="img-container">
                     <img src="Rogerio Ceni.jpg" alt="Gol numero 100 Rogerio Ceni">
                     <div class="botoes-interacao">
+                        <!-- Nossos botões interativos -->
                         <button>❤️ <span>0</span></button>
                         <button>🟥⬛⬜ <span>0</span></button>
                     </div>
@@ -174,6 +204,7 @@
                 <p>Ainda duvida? Assista aos lances abaixo e veja com os próprios olhos a genialidade do M1TO em campo, tanto defendendo quanto atacando:</p>
                 
                 <div class="videos-container">
+                    <!-- Iframes para incorporar os vídeos diretamente do YouTube -->
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/66-m53AXyjs?si=RBhJc7uXl8Q2p98w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/8FwR_E64FpE?si=4EzNursyav0IhBVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/WU1Vum9cDbE?si=npiytiKu-kwtyXEm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -181,22 +212,37 @@
             </div>
 
         </main>
-    </div> <!-- FIM DO CONTAINER -->
+    </div> 
 
+    <!-- =========================================
+         JAVASCRIPT: A LÓGICA E INTERAÇÃO
+         ========================================= -->
     <script>
+        // 1. Busca todos os botões do site
         const botoes = document.querySelectorAll("button");
+        
+        // 2. Aplica essa regra repetidamente para cada botão encontrado
         botoes.forEach(function (botao) {
+            
+            // Variável isolada para cada botão lembrar do seu estado (curtido ou não)
             let curtiu = false;
+            
+            // 3. Fica ouvindo cliques. Se clicar, roda o que está dentro.
             botao.addEventListener("click", function botaoClicado() {
+                // Acha o local exato do número (tag span) dentro do botão
                 let texto = botao.querySelector("span");
+                
+                // 4. Se não estava curtido, adiciona o like
                 if (curtiu === false) {
-                    texto.textContent++;
-                    curtiu = true;
-                    botao.style.backgroundColor = "#ffcccc"; 
+                    texto.textContent++; // Soma 1
+                    curtiu = true; // Avisa que agora tá curtido
+                    botao.style.backgroundColor = "#ffcccc"; // Muda pra vermelhinho
+                
+                // 5. Se já estava curtido, remove o like
                 } else {
-                    texto.textContent--;
-                    curtiu = false;
-                    botao.style.backgroundColor = "#f8f9fa"; 
+                    texto.textContent--; // Subtrai 1
+                    curtiu = false; // Volta ao estado inicial
+                    botao.style.backgroundColor = "#f8f9fa"; // Volta pra cor padrão
                 }
             });
         });
