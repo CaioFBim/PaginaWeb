@@ -53,12 +53,16 @@ Para que o site funcione perfeitamente na sua máquina, os seguintes arquivos de
 
 ## Referências
 
-GUINNESS WORLD RECORDS. **Most goals scored by a goalkeeper**. Londres, 2015. Disponível em: <https://www.guinnessworldrecords.com/world-records/most-goals-scored-by-a-goalkeeper>. Acesso em: 30 ago. 2026.
+FUTEBOLFFV. **Rogério Ceni faz o seu 100o. gol na carreira (São Paulo 2x1 Corinthians - 2011)**. 2011. Imagem de perfil. 
 
-SÃO PAULO FUTEBOL CLUBE. **História: Rogério Ceni**. São Paulo. Disponível em: <http://www.saopaulofc.net>. Acesso em: 30 ago. 2026.
+FUTBOX. **Rogerio Ceni Campeonato Mundial De Clubes Da Fifa 2005**. Disponível em: <https://www.futbox.com/blog/wp-content/uploads/2013/07/56449891.jpg>. Acesso em: 31 ago. 2026.
 
-FUTEBOL NACIONAL. **Título exato do primeiro vídeo do YouTube**. YouTube. Disponível em: <https://youtu.be/66-m53AXyjs>. Acesso em: 30 ago. 2026.
+GUINNESS WORLD RECORDS. **Most goals scored by a goalkeeper**. Londres, 2015. Disponível em: <https://www.guinnessworldrecords.com/world-records/most-goals-scored-by-a-goalkeeper>. Acesso em: 31 ago. 2026.
 
-3 CORES 1 SÓ TORCIDA. **Título exato do segundo vídeo do YouTube**. YouTube. Disponível em: <https://youtu.be/8FwR_E64FpE>. Acesso em: 30 ago. 2026.
+SÃO PAULO FUTEBOL CLUBE. **História: Rogério Ceni**. São Paulo. Disponível em: <http://www.saopaulofc.net>. Acesso em: 31 ago. 2026.
 
-EDUKLOTZ. **Título exato do terceiro vídeo do YouTube**. YouTube. Disponível em: <https://youtu.be/WU1Vum9cDbE>. Acesso em: 30 ago. 2026.
+FUTEBOL NACIONAL. **ROGÉRIO CENI • Top 20 • Gols de Falta**. YouTube. Disponível em: <https://youtu.be/66-m53AXyjs>. Acesso em: 31 ago. 2026.
+
+3 CORES 1 SÓ TORCIDA. **15 Defesas Incríveis de Rogério Ceni •HD•**. YouTube. Disponível em: <https://youtu.be/8FwR_E64FpE>. Acesso em: 31 ago. 2026.
+
+EDUKLOTZ. **100° GOL DE ROGERIO CENI !!!**. YouTube. Disponível em: <https://youtu.be/WU1Vum9cDbE>. Acesso em: 31 ago. 2026.
